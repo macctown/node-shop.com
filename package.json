@@ -1,0 +1,14 @@
+{
+  "name": "node-shop.com",
+  "version": "1.0.3",
+  "description": "Node.js Module for Shop.com API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shop.com"
+  ],
+  "author": "macctown <macctown@hotmail.com> (http://zhang-wei.me)",
+  "license": "MIT"
+}
