@@ -2,13 +2,11 @@
 Node.js Module for Shop.com API
 
 #Install
-----
 ```
 npm install --save node-shop.com
 ```
 
 #Usage
-----
 ```javascript
 //search product by ID - use Product Service
 Shop.products(8573924, {allperms: false})
@@ -30,10 +28,8 @@ Shop.search("socks", {page: 1, count: 1})
 ```
 
 #Reference
-----
 - [Product Service](https://developer.shop.com/documentation/ProductService)
 - [Search Service](https://developer.shop.com/documentation/SearchService)
 
 #License
-----
 [MIT](http://spdx.org/licenses/MIT)

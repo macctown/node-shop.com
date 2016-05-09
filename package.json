@@ -7,8 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "shop.com"
+    "shop.com",
+    "API",
+    "affliate program"
   ],
   "author": "macctown <macctown@hotmail.com> (http://zhang-wei.me)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "macctown/node-shop.com",
+  "dependencies":{
+    "request": "~2.72.0",
+    "query-string": "~4.1.0"
+  }
 }
