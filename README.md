@@ -1,4 +1,6 @@
 # node-shop.com
+[![npm version](https://badge.fury.io/js/node-shop.com.svg)](https://badge.fury.io/js/node-shop.com)
+
 Node.js Module for Shop.com API
 
 #Install
