@@ -1,6 +1,6 @@
 {
   "name": "node-shop.com",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Node.js Module for Shop.com API",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "author": "macctown <macctown@hotmail.com> (http://zhang-wei.me)",
   "license": "MIT",
   "repository": "macctown/node-shop.com",
-  "dependencies":{
+  "dependencies": {
     "request": "~2.72.0",
     "query-string": "~4.1.0"
   }
