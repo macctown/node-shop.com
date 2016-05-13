@@ -1,6 +1,6 @@
 {
   "name": "node-shop.com",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node.js Module for Shop.com API",
   "main": "index.js",
   "scripts": {
