@@ -30,10 +30,53 @@ var Shop = require('node-shop.com').initShop({
 	apikey: 'YOUR_API_KEY'
 });
 
-Shop.products(874694776, {allperms: false})
-.then(function (data) {
-  console.log(data);
-})
-.catch(function (err) {
-  console.error(err);
-});
+Shop.products('874694776', {allperms: false})
+	.then(function (data) {
+	  console.log(data);
+	})
+	.catch(function (err) {
+	  console.error(err);
+	});
+
+
+Shop.search("socks", {page: 1, count:1})
+    .then(function (data) {
+      console.log(data);
+    })
+    .catch(function (err) {
+      console.error(err);
+    });
+
+
+Shop.apnCategory({publisherID: 'TEST', locale: 'en_US'})
+	.then(function (data) {
+	  console.log(data);
+	})
+	.catch(function (err) {
+	  console.error(err);
+	});
+
+Shop.apnProduct({publisherID: 'TEST', locale: 'en_US', perPage: '15'})
+	.then(function (data) {
+	  console.log(data);
+	})
+	.catch(function (err) {
+	  console.error(err);
+	});
+
+
+Shop.apnProductById('874694776', {publisherID: 'TEST', locale: 'en_US'})
+	.then(function (data) {
+	  console.log(data);
+	})
+	.catch(function (err) {
+	  console.error(err);
+	});
+
+Shop.apnTaxShipping({prodIds: '834207132', quantity: '1', state: 'MA', zip:'02148', city:'Malden', country:'United States', street:'999 Maple St'})
+	.then(function (data) {
+  		console.log(data);
+	})
+	.catch(function (err) { 			
+		console.error(err);		
+	});
