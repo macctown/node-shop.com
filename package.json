@@ -15,7 +15,8 @@
   "license": "MIT",
   "repository": "macctown/node-shop.com",
   "dependencies": {
-    "request": "~2.72.0",
-    "query-string": "~4.1.0"
+    "mocha": "^2.4.5",
+    "query-string": "^4.1.0",
+    "request": "~2.72.0"
   }
 }
